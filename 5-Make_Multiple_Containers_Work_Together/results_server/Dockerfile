@@ -8,7 +8,7 @@ COPY . /src/app
 
 RUN yarn install
 
-RUN yarn global add nodemon
+RUN yarn global add nodemon@1.18.7
 
 EXPOSE 3000
 
